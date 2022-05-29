@@ -1,6 +1,7 @@
-# Windows RPC Backdoor
+A simple RPC server I've developed while studying Windows RPC. 
 
-This repository is for research/study purposes only.
+Has cpp and python client implementations as well.
+
 
 # Compilation
 
@@ -48,10 +49,10 @@ python3 client.py whoami
 
 # References
 
-https://csandker.io/2022/05/24/Offensive-Windows-IPC-3-ALPC.html
-https://csandker.io/2021/02/21/Offensive-Windows-IPC-2-RPC.html
-https://csandker.io/2021/01/10/Offensive-Windows-IPC-1-NamedPipes.html
-https://sensepost.com/blog/2021/building-an-offensive-rpc-interface/
-https://itm4n.github.io/fuzzing-windows-rpc-rpcview/
-https://itm4n.github.io/from-rpcview-to-petitpotam/
-https://docs.microsoft.com/en-us/windows/win32/rpc/protocol-sequence-constants
+* https://csandker.io/2022/05/24/Offensive-Windows-IPC-3-ALPC.html
+* https://csandker.io/2021/02/21/Offensive-Windows-IPC-2-RPC.html
+* https://csandker.io/2021/01/10/Offensive-Windows-IPC-1-NamedPipes.html
+* https://sensepost.com/blog/2021/building-an-offensive-rpc-interface/
+* https://itm4n.github.io/fuzzing-windows-rpc-rpcview/
+* https://itm4n.github.io/from-rpcview-to-petitpotam/
+* https://docs.microsoft.com/en-us/windows/win32/rpc/protocol-sequence-constants
