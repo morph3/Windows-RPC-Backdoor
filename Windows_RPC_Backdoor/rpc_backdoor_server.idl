@@ -1,0 +1,17 @@
+import "oaidl.idl";
+import "ocidl.idl";
+[
+	uuid(7a5e41fd-a31f-4892-8e9f-76e5f0cb251e), // generated randomly
+	version(1.0),
+	implicit_handle(handle_t ImplicitHandle)
+]
+
+interface BackdoorInterface {
+
+	void backdoor(
+		[in] LPSTR* in_str,
+		[out] LPSTR* out_str
+	);
+
+
+}
