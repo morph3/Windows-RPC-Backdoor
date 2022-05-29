@@ -1,4 +1,6 @@
-A simple RPC server I've developed while studying Windows RPC. 
+# Windows RPC Backdoor 
+
+A very simple RPC server I've developed while studying Windows RPC. 
 
 Has cpp and python client implementations as well.
 
@@ -44,8 +46,8 @@ python3 client.py whoami
 # TODO
 
 * AES encrypted traffic
-* Only allows anonymous connections now, I might consider adding protected inferfaces as well
-* Implement other protocol sequences
+* Protected inferfaces, (Only allows anonymous connections now, I might consider adding protected interfaces as well)
+* Other protocol sequences
 
 # References
 
